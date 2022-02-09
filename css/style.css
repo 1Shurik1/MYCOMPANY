@@ -1,0 +1,303 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li	{
+	list-style: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	width: 100%;
+	background: #000;
+	display: flex;
+}
+.header_logo{
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 800;       /*делает текст пожирнее*/
+	font-size: 24px;
+	margin-top: 40px;
+	margin-left: 179px;
+}
+
+nav{
+	margin-top: 40px;
+	margin-left: 435px;
+}
+.topnav a{
+	color: #fff;
+	text-align: center;
+	padding: 12px 16px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.topnav a:hover{
+	border-bottom: 3px solid #F92447;
+}
+main{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+main .welcome{
+	background: #000;
+	text-align: center;
+	padding: 200px 0 410px 0;
+}
+main .welcome p{
+	color: #999;
+	font-size: 20px
+}
+main .welcome h1{
+	color: #999;
+	font-size: 44px
+}
+main .mycompany{
+	color: #FCAC45;
+}
+
+.wriper{
+	width: 76%;
+	margin: 0 auto;
+}
+
+main .main_about{
+	display: flex;
+	padding: 100px 0 100px 0;
+}
+.about_right{
+	margin-left: 175px;
+}
+
+.about_right h2{
+	display:  inline-block;
+	border-bottom: 3px solid #FCAC45;
+	padding-bottom: 20px;
+	font-size: 34px;
+}
+.about_right p{
+	margin: 30px 0 50px 0;
+	color: #6C6C6C;
+	font-size: 18px;
+}
+
+.about_right li{
+	background: url(../img/mark.png) 0px no-repeat;
+	color: #6C6C6C;
+	padding-left: 25px;
+	margin-top: 10px;
+}
+
+
+/*--- team --- */
+
+.main_team{
+	background: #000;
+	text-align: center;
+	padding: 100px 0 165px 0;
+	color: #fff;
+}
+.main_team h2{
+	font-size: 44px;
+	margin-bottom: 20px;
+}
+.lorem{
+	width: 100px;
+	height: 3px;
+	border-bottom: 3px solid #FCAC45;
+	position: relative;
+	left: 45.5%;
+	margin-bottom: 85px;
+}
+
+.photo{
+	background: #EEEEF0;
+	width: 127px;
+	height: 127px;
+	border-radius: 50%;
+	margin: 20px auto;
+}
+
+.team_cards{
+	display: flex;
+}
+.cards {
+	margin: 0 20px;
+}
+.cards h4{
+	font-size: 20px;
+	margin-bottom: 4px;
+}
+.posihion {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.about_posihion {
+	font-size: 14px;
+}
+
+.main_services{
+	background: #fff;
+	text-align: center;
+	padding: 84px 0 84px 0;
+	color: #222222;
+}
+
+.main_services h2{
+	font-size: 44px;
+}
+
+.main_services em{
+	color: #6C6C6C;
+}
+
+
+.choice{
+	padding-top: 85px;
+	width: 127px;
+	height: 125px;
+	margin: 20px auto;
+}
+.about_posihions{
+	color: #222222;
+}
+
+.serveses_cards{
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 20px;
+}
+
+.serveses_card h4{
+	margin-bottom: 15px;
+}
+
+.serveses_card p{
+	color: #6c6c6c;
+}
+
+/*--- clients ---*/
+
+.main_clients{
+	background: #000;
+	text-align: center;
+	padding: 100px 0 200px 0;
+}
+.main_clients h2{
+	font-size: 44px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.main_clients img{
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+/*---work---*/
+
+.main_work{
+	background: #fff;
+	text-align: center;
+	padding:100px 0 100px 0;
+}
+.main_work h2{
+	color: #222222;
+	font-size: 44px;
+	margin-bottom: 15px;
+}
+.main_work p{
+	color: #6C6C6C;
+	margin-bottom: 175px;
+}
+
+.main_work img{
+	margin-left: 5px;
+	margin-bottom: 5px
+}
+
+
+.main_work img:hover{
+	opacity: 0.9;
+}
+
+/*---TESTIMONIALS---*/
+
+.main_TESTIMONIALS{
+	background: #000;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 170px;
+}
+.main_TESTIMONIALS h2{
+	font-size: 44px;
+	margin-top: 100px;
+	margin-bottom: 15px;
+}
+
+.main_TESTIMONIALS, .main_TESTIMONIALS_p{
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+
+/* --- contact_form ---*/
+
+.contact_form{
+	width: 753px;
+	margin: 0 auto;
+	color: #636363;
+}
+.red{
+	color: red;
+}
+
+.form_inputs{
+	display: flex;
+}
+
+input{
+	width: 360px;
+	height: 40px;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+input:first-of-type{
+	margin-right: 30px;
+}
+
+textarea{
+	width: 100%;
+	height: 163px;
+}
+
+input, textarea{
+	border: 1px solid #999999;
+	margin-top: 5px;
+}
+
+
+.botton_block{
+	justify-content:flex-start;
+}
+
+/*----- задаем свойство унопки ------*/
+
+input[type=submit] {
+	width: 165px;
+	height: 40px;
+	background: #fcac45;
+	color: #fff;
+}
+
+
+
+/* для меньшей версии монитора и на телефон*/
